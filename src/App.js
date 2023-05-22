@@ -140,7 +140,7 @@ function App() {
     fb:fb,
     twitter:twitter,
     insta:insta,
-    in:linkdIn,
+    linkdIn:linkdIn,
     youTube:youTube,
    
   };
@@ -157,7 +157,8 @@ function App() {
     </div>
     <div>
       <Experts 
-             
+             title={expertsData.title}
+             discription={expertsData.discription}
             discription2 = {expertsData.discription2}
             image={expertsData.image}
             subSectionTitle={expertsData.subSectionTitle}

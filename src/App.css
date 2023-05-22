@@ -2,3 +2,15 @@
   color: #00205B  !important;
   
 }
+.background{
+  background-image: url(assets/images/header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backgroundImage{
+  background-image: url(assets/images/cta.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
