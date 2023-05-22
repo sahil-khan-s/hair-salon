@@ -104,16 +104,16 @@ const Header = ({
           </div>
         </div>
 
-        <div className="flex flex-wrap xl:flex-nowrap px-[112px] justify-center gap-[32px]">
+        <div className="flex flex-wrap xl:flex-nowrap px-4 lg:px-[112px] justify-center gap-[32px]">
           <div className="  ">
             <img
               src={image}
               alt="none"
-              className="w-[592px] h-[480px] max-w-[592px]"
+              className="sm:w-[592px] w-[350px] sm:h-[480px] max-w-[592px]"
             />
           </div>
-          <div className="">
-            <h1 className="text-[48px] font-[300] text-[#221F20]  leading-[125%] ">
+          <div className="max-w-[592px]">
+            <h1 className="text-[30px] sm:text-[48px] font-[300] text-[#221F20]  leading-[125%] ">
               {title}
             </h1>
             <p className=" text-[#221F20;]  pt-[16px] text-[16px] 2xl:text-[20px]  ">
