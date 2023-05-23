@@ -59,7 +59,7 @@ const index = ({
         </div>
       </div>
        <div className='py-[32px]'>
-        <img src={map} alt="" width={1216} height={480} />
+        <img src={map} alt="" width={1216} height={480}  className='mx-auto'/>
        </div>
 
     </div>
