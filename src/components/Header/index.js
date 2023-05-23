@@ -1,4 +1,5 @@
 import React from "react";
+import HairSalon from "../Common/HairSalon";
 const Header = ({
   headerData,
   text,
@@ -31,11 +32,9 @@ const Header = ({
       <div className="background">
         <div className="container xl:max-w-container px-4 lg:px-[112px]  mx-auto">
           <div className="flex justify-between py-[55px]">
-            <div className="grid lg:grid-cols-2 gap-[16px] items-baseline">
-              <div>
-                <h1 className="text-[#AE7029] font-[400] text-[14px] 2xl:text-[17px]">
+            <div className="grid lg:grid-cols-2 gap-[16px] items-center">
+              <div className="text-[#AE7029] font-[400] text-[14px] 2xl:text-[17px]">
                   {text}
-                </h1>
               </div>
               <div className="flex gap-[8px] ">
                 <img
@@ -84,7 +83,8 @@ const Header = ({
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center">
+
+          <div className="bgRed flex flex-col justify-center items-center">
             <div>
               <img
                 src={headerData.imageUrl}
@@ -104,29 +104,15 @@ const Header = ({
           </div>
         </div>
 
-        <div className="flex flex-wrap xl:flex-nowrap px-4 lg:px-[112px] justify-center gap-[32px]">
-          <div className="  ">
-            <img
-              src={image}
-              alt="none"
-              className="sm:w-[592px] w-[350px] sm:h-[480px] max-w-[592px]"
-            />
-          </div>
-          <div className="max-w-[592px]">
-            <h1 className="text-[30px] sm:text-[48px] font-[300] text-[#221F20]  leading-[125%] ">
-              {title}
-            </h1>
-            <p className=" text-[#221F20;]  pt-[16px] text-[16px] 2xl:text-[20px]  ">
-              {discription}
-            </p>
-            <p className=" text-[#221F20;] pt-[16px]  text-[16px] 2xl:text-[20px]  ">
-              {discription2}
-            </p>
-            <p className=" text-[#221F20;] pt-[16px]  text-[16px] 2xl:text-[20px]">
-              {discription3}
-            </p>
-          </div>
-        </div>
+      <HairSalon
+      title={title}
+      discription={discription}
+      discription2={discription2}
+      discription3={discription3}
+      image={image}
+      />
+
+
       </div>
     </div>
   );

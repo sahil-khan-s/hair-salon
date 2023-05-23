@@ -16,3 +16,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.bgRed{
+  background-image: url(assets/images/bgRed.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
