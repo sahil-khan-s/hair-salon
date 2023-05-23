@@ -9,8 +9,8 @@ const index = ({
 })  => {
   return (
     <div>
-       <div className='flex justify-center gap-[64px] py-[96px]'>
-        <div>
+       <div className='flex flex-col md:flex-row justify-center gap-[64px] py-[96px]'>
+        <div className='flex justify-center'>
         <img src={image} alt="" width={322} height={90} />
         </div>
         <div>
